@@ -1,0 +1,27 @@
+<html>
+
+<body>
+    <select id="drop">
+        <option>image 1</option>
+        <option>image 2</option>
+        <option>image 3</option>
+    </select>
+    <script>
+
+        function abc() {
+            var d_value = document.getElementById("drop");
+            d_value.addEventListener('change', function (a) {
+                var x= d_value.options[d_value.selectedIndex].value;
+                if(x=='image 1')
+                {
+                    
+                }
+            });
+
+        }
+        abc();
+
+    </script>
+</body>
+
+</html>
